@@ -18,15 +18,15 @@ addButton.addEventListener('click', e => {
         listItem.addEventListener( 'click', e=> { 
             listItem.style.textDecoration = 'line-through'
 
-         
-    })
+         setTimeout( bye, 1000);
+         function bye () {
+             container.removeChild(listItem)
+          }
+   
+        })
         
 
-    listItem.addEventListener( 'dblclick', e=> { 
-        container.removeChild(listItem)
-
-
-    })
+    
 
 })
 

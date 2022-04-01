@@ -65,9 +65,17 @@ border-width: 10px;
 h1   { 
      font-family: 'Righteous';
 font-size: 50px;
- 
+ text-shadow: 0 0 3px indianred;
+height:2px ;
+transition: height 2s, transform 5s;
+    
+}
+
+h1:hover { 
+
+    height: -2px;
+    transform: rotate(360deg);
 
 
-     
 }
 
