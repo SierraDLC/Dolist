@@ -11,6 +11,8 @@ body {
     color:rgb(245, 245, 245);
     font-family: "Poppins", sans-serif;
     min-height: 100vh;
+    padding-top: 5%;
+    margin: 2%;
 
 }
 
@@ -50,9 +52,22 @@ color: #5addaf;
     flex-direction: column;
     line-height: 2;
    font-size: 150%;
-    bor
+   border-radius: 5px;
+   border-style: double;
+   box-shadow: 10px 5px 5px  indianred;
+border-width: 10px;
 
     
 
+}
+
+
+h1   { 
+     font-family: 'Righteous';
+font-size: 50px;
+ 
+
+
+     
 }
 
